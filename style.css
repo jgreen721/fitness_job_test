@@ -61,7 +61,7 @@ li {
   height: 385px;
   top: 0;
   left: 0;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 100%;
 }
 
@@ -96,7 +96,7 @@ li {
   /* height: 100%; */
   position: relative;
   margin: 0 auto;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   padding: 30px;
   z-index: 1;
   font-family: var(--lato);
@@ -315,6 +315,7 @@ li {
 .h1-contact {
   position: relative;
   margin-bottom: 1rem;
+  width: 50%;
 }
 
 .contact-number {
@@ -561,6 +562,14 @@ li {
   .contact-number {
     font-size: 1rem;
     margin-left: 2px;
+  }
+
+  .h1-contact {
+    width: 100%;
+  }
+
+  .plane {
+    display: none;
   }
 }
 

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css
+    "
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Oswald:wght@400;700&display=swap");
+
+      :root {
+        --lato: "Lato", sans-serif;
+        --oswald: "Oswald", sans-serif;
+      }
+
+      .lato {
+        font-family: var(--lato);
+      }
+
+      .oswald {
+        font-family: var(--oswald);
+      }
+
+      .strong_bold {
+        font-weight: 700;
+      }
+
+      /* .app {
+        max-width: 1200px;
+        max-height: 1200px;
+        border: 2px solid black;
+        margin: 0 auto;
+        padding: 30px;
+      } */
+
+      .app {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+      }
+    </style>
+    <title>Weight-Loss Center</title>
+  </head>
+  <body>
+    <div class="app">
+      <!--HERO-->
+      <div class="top-hero">
+        <div class="overlay-sky">
+          <img
+            class="overlay-sky-img"
+            src="./assets/cloudymtn.jpeg"
+            alt="cloudy"
+          />
+        </div>
+      </div>
+
+      <!--APP-PARENT-->
+      <div class="app-parent-container">
+        <div class="header-nav-parent">
+          <!--NAVBAR-->
+          <nav class="navbar text-uppercase">
+            <div class="d-flex align-items-center justify-content-start">
+              <div class="icon-parent-div">
+                <div class="circle"></div>
+                <div class="square"></div>
+              </div>
+              <div>
+                <h5 class="ms-2 mt-2 strong_bold">
+                  Weight Loss <br />
+                  Center
+                </h5>
+              </div>
+            </div>
+            <!-- <div class="bord"> -->
+            <ul class="site-nav-links">
+              <li class="site-nav-item strong_bold">Home</li>
+              <li class="site-nav-item strong_bold">About</li>
+              <li class="site-nav-item strong_bold">Services</li>
+              <li class="site-nav-item strong_bold">Our Results</li>
+              <li class="site-nav-item strong_bold">Procedures</li>
+              <li class="site-nav-item strong_bold">
+                Contact | <span class="contact-number">(800) 123 4567</span>
+              </li>
+              <span class="close">&times; </span>
+            </ul>
+            <div class="burger-div">
+              <div class="line line-1"></div>
+              <div class="line line-2"></div>
+              <div class="line line-3"></div>
+            </div>
+            <!-- </div> -->
+          </nav>
+
+          <!--HEADER-->
+          <div class="row header-container">
+            <div
+              class="col-md-6 d-flex flex-column justify-content-start align-items-start text-center text-md-start"
+            >
+              <h1 class="text-uppercase">
+                Leading the field in
+                <strong
+                  ><span class="text-primary">weight loss</span>
+                  surgery.</strong
+                >
+              </h1>
+              <div class="row w-100 text-uppercase ms-1">
+                <div class="col-md-6 text-center text-md-start p-2">
+                  <h5>"Before I was alive</h5>
+                  <h5 class="bg-dark text-light p-1 rounded m-auto m-md-0">
+                    And now I'm living."
+                  </h5>
+                </div>
+                <div
+                  class="col-md-6 d-flex align-items-center justify-content-evenly py-4 py-md-0"
+                >
+                  <div class="dot dot-1"></div>
+                  <div class="dot dot-1"></div>
+                  <div class="dot dot-1"></div>
+                </div>
+              </div>
+              <div class="w-100">
+                <button class="header-btn ms-2">Read More</button>
+              </div>
+            </div>
+            <div
+              class="d-none col-md-6 d-md-flex align-items-center justify-content-center jog-div"
+            >
+              <img
+                class="img-fluid joggers rounded-circle d-md-block"
+                src="./assets/jogging1.jpeg"
+                alt="joggers"
+              />
+            </div>
+          </div>
+        </div>
+
+<!--CARDS ROWS-->
+
+        <section class="row d-flex align-items-center justify-content-center">
+          <div class="col-md-4 bg-primary p-4 text-center section-card">
+            <div class="icon-parent-div">
+                <div class="icon-div">
+                    <i style="font-size:35px" class="fa fa-facebook"></i>
+                </div>
+            </div>
+         <h1 class="strong_bold text-uppercase">One kind of weight loss procedure</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              nemo, sint a vel laudantium assumenda quis, aliquam mollitia
+              reiciendis, odio molestiae illo ab minus facilis labore eligendi
+              deserunt. Dolorum?
+            </p>
+            <button class="btn btn-light learn-btn">
+                <strong>Learn More</strong> 
+            </button>
+          </div>
+          <div class="col-md-4 bg-primary p-4  text-center section-card">
+            <div class="icon-parent-div">
+                <div class="icon-div">
+                    <i style="font-size:35px" class="fa fa-facebook"></i>
+                </div>
+            </div>
+            
+            <h1 class="strong_bold text-uppercase">Another weight loss prodedure</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              nemo, sint a vel laudantium assumenda quis, aliquam mollitia
+              reiciendis, odio molestiae illo ab minus facilis labore eligendi
+              deserunt! Dolorum?
+            </p>
+            <button class="btn btn-light  learn-btn">
+                <strong>Learn More</strong> 
+            </button>
+          </div>
+          <div class="col-md-4 bg-primary p-4  text-center section-card">
+            <div class="icon-parent-div">
+                <div class="icon-div">
+                    <i style="font-size:35px" class="fa fa-facebook"></i>
+                </div>
+            </div>
+            <h1 class="strong_bold text-uppercase">A third weight loss prodedure</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              nemo, sint a vel laudantium assumenda quis, aliquam mollitia
+              reiciendis, odio molestiae illo ab minus facilis labore eligendi
+              deserunt. Dolorum?
+            </p>
+            <button class="btn btn-light learn-btn">
+             <strong>Learn More</strong> 
+            </button>
+          </div>
+        </div>
+
+<!--CONTACT-->
+
+<section class="contact-section">
+    
+    <div class="contact-overlay">
+        <img class="overlay-crop" src="./assets/crops.jpeg" alt="img">
+    </div>
+    
+    
+    <div class="contact-content h-100 d-flex align-items-center justify-content-center relative">
+        
+        <div class="contact-card  w-75 h-75 d-relative">
+            
+            <div class="contact-card-overlay"></div>
+            <div class="contact-card-content">
+
+                <div class="col-md-6 p-3">
+                    <img class="plane" src="./assets/airplane.png" alt="">
+                    <h1 class="text-uppercase h1-contact">We are <br/> <span class="strong_bold">Amazing!</span></h1>
+                    <p class="text-center text-sm-start w-100 w-sm-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia earum sint commodi omnis tempora vel deserunt voluptates. Numquam neque debitis quas dolore, aliquam explicabo maxime?</p>
+                </div>
+                <div class="col-md-6">
+                    <form class="contact-form bg-light text-dark rounded p-4" action="#">
+                        <div class="d-flex align-items-center justify-content-evenly">
+                                <h1>Contact</h1>
+                                <h5 class="contact-number">800.123.4567</h5>
+                            </div>
+                            <div class="form-div p-2">
+                                <input type="text" class="form-control" placeholder="Name" autocomplete="none">
+                            </div>
+                            <div class="form-div p-2">
+                                <input type="text" class="form-control" placeholder="Email" autocomplete="none">
+                            </div>
+                            <div class="form-div p-2">
+                                <input type="text" class="form-control" placeholder="Phone" autocomplete="none">
+                            </div>
+                            <div class="form-div p-2">
+                                <textarea  class="form-control" placeholder="Message" autocomplete="none"></textarea>
+                            </div>
+                       <button disabled class="submit-btn text-uppercase text-light p-1">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+   
+<!--FOOTER-->
+<footer class="p-4 text-center bg-dark text-light">
+    <!-- <div class="d-flex align-items-center justify-content-start"> -->
+      
+      
+          <h5 class="mt-2 strong_bold">
+            Weight Loss <br />
+            Center
+          </h5>
+          <p class="strong_bold">1234 First Street, Suite 1000 - Santa Monica, CA 90405 | 800.123.4567</p>
+          <ul class="footer-links d-flex justify-content-evenly align-items-center w-50 m-auto">
+              <li class="footer-item mx-2 m-sm-0">
+                  <a href="#" class="footer-link">
+                      <i class="fa fa-facebook footer-icon-1"></i>
+                  </a>
+              </li>
+              <li class="footer-item mx-2 m-sm-0">
+                <a href="#" class="footer-link">
+                    <i class="fa fa-twitter footer-icon-2"></i>
+                </a>
+            </li>
+            <li class="footer-item mx-2 m-sm-0">
+                <a href="#" class="footer-link">
+                    <i class="fa fa-google-plus footer-icon-3"></i>
+                </a>
+            </li>
+            <li class="footer-item mx-2 m-sm-0">
+                <a href="#" class="footer-link">
+                    <i class="fa fa-camera footer-icon-4"></i>
+                </a>
+            </li>
+            <li class="footer-item mx-2 m-sm-0">
+                <a href="#" class="footer-link">
+                    <i class="fa fa-fax footer-icon-5"></i>
+                </a>
+            </li>
+          </ul>
+          <p class="small-text my-5">Copyrite 2018 Weight Loss Center | All Rights Reserved</p>
+</footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      var closeBtn = document.querySelector(".close");
+      var burgerBtn = document.querySelector(".burger-div");
+
+      closeBtn.onclick = () => {
+        document
+          .querySelector(".site-nav-links")
+          .classList.remove("show-links");
+      };
+
+      burgerBtn.onclick = () => {
+        document.querySelector(".site-nav-links").classList.add("show-links");
+      };
+    </script>
+  </body>
+</html>

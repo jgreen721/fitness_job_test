@@ -9,6 +9,10 @@
   --cardlightblue: rgb(15, 186, 216);
 }
 
+.t-shadow {
+  text-shadow: 2px 2px 8px black;
+}
+
 li {
   list-style: none;
 }
@@ -343,7 +347,8 @@ li {
 .contact-form {
   position: relative;
   top: 1rem;
-  left: -2rem;
+  left: -0.5rem;
+  width: 97%;
 }
 
 .submit-btn {
@@ -442,6 +447,31 @@ li {
   font-size: 0.65rem;
 }
 
+.footer-icon-div {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.footer-square {
+  width: 50px;
+  border: 2px solid white;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer-circle {
+  width: 55px;
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 55px;
+  position: absolute;
+  top: -5%;
+  left: -5%;
+}
+
 /*Custom Responsiveness */
 
 @media screen and (max-width: 975px) {
@@ -521,6 +551,16 @@ li {
 
   .contact-card {
     transform: translateY(-4.5rem);
+  }
+
+  .contact-contact-h1 {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+
+  .contact-number {
+    font-size: 1rem;
+    margin-left: 2px;
   }
 }
 

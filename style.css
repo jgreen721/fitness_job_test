@@ -1,5 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  opacity: 0;
+  transition: 1s ease;
+  animation: fadein 1s forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 :root {
   --lato: "Lato", sans-serif;
   --oswald: "Oswald", sans-serif;

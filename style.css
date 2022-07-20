@@ -128,7 +128,7 @@ li {
   /* border: 5px solid red; */
   position: relative;
   transform: translateY(-0.75em);
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .site-nav-links {
